@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task list</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/Logitech_logo.svg" alt="logo m" width="220px" />
+      <p>X</p>
+      <img src="./assets/Google_2015_logo.svg.webp" alt=""width=220px>
+      <h1>List of games to play</h1>
+      <p>From Logitech x Goole &copy; </p>
+    </header>
+    <main>
+        <p>Save your games here. thanks to the Logitech x Google collaboration you will receive a <br> notification every time the prices of your games drop</p>
+      <form id="formInput">
+        <div>
+          <label for="task"></label>
+          <input id="task" type="text" placeholder="what do you want to play?" />
+          <button>Add</button>
+        </div>
+      </form>
+      <section>
+        <h3>Your game list:</h3>
+        <div id="button">
+          <ul id="savedTask"></ul>
+        </div>
+      </section>
+    </main>
+   
+    <script src="./script/script.js"></script>
+  </body>
+</html>

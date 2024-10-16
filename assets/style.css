@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background: radial-gradient(circle, rgba(189,46,186,1) 2%, rgba(101,80,236,1) 100%);
+    font-family: Bebas Neue;
+    font-weight: bold;
+    color: white;
+}
+
+header {
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 2em;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+header p {
+    margin-bottom: 1em;
+}
+main {
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 2em;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding-bottom: 30%;
+    
+}
+
+main > p {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 6em;
+    margin-top: 0.4em;
+}
+p {
+    padding-top: 1em;
+}
+
+h3 {
+    margin-top: 1em;
+    font-size: 3em;
+
+    
+}
+
+input {
+    font-size: 2em;
+    border-radius: 20px;
+    border: 1px solid  skyblue;
+}
+
+form > div > button {
+ font-size: 2em;
+ border-radius: 20px;
+
+}
+
+main > form > div {
+    margin-top: 5em;
+}
+
+#savedTask {
+    margin-top: 2.5em;
+    list-style: inside;
+}
+
+li {
+    margin: 1.5em;  
+    font-size: 2.5em;
+}
+
+
